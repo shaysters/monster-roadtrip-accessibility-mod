@@ -26,7 +26,7 @@ This mod for the game was coded by Codex and Shaysters.
    `C:\Program Files (x86)\Steam\steamapps\common\Monster Prom 3 - Monster Roadtrip\BepInEx\plugins`
 
    The plugins folder should include:
-   - `RoadtripAccessibilityProbe.dll`
+   - `RoadtripAccessibilityMod.dll`
    - `Tolk.dll`
    - `nvdaControllerClient32.dll`
    - `nvdaControllerClient64.dll`
