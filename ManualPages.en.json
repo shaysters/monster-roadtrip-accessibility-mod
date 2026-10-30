@@ -1,0 +1,637 @@
+{
+  "source": {
+    "game": "Monster Prom 3 - Monster Roadtrip",
+    "language": "English",
+    "notes": [
+      "Transcribe only text visibly present on the page image.",
+      "Add image descriptions only for clearly visible visual content.",
+      "Do not infer unlabeled mechanics or unseen text."
+    ]
+  },
+  "pages": {
+    "cover": {
+      "visible_text": [
+        "MONSTER ROADTRIP",
+        "MANUAL"
+      ],
+      "image_description": "Illustration of a character sitting on the back of a car next to a backpack. Canyon walls are in the background."
+    },
+    "0": {
+      "visible_text": [
+        "WIN AND LOSE CONDITIONS: MANAGING RESOURCES",
+        "During this game all players manage the six ROAD TRIP RESOURCES.",
+        "The LOSE CONDITION is one RESOURCE reaching ZERO. If this happens, a GAME OVER will trigger.",
+        "The WIN CONDITION is reaching a DESTINATION, which is accomplished by hoarding one RESOURCE enough, till you meet the DESTINATION REQUIREMENT (which can always be consulted).",
+        "HYPE 10",
+        "MAGIC 10",
+        "MIND 10",
+        "MONEY 10",
+        "SOUL 10",
+        "STAMINA 10",
+        "SOUL 0",
+        "MAGIC 22/25"
+      ],
+      "image_description": "Three panels. The left panel shows a resource list with icons and values. The middle panel shows a resource list with SOUL circled at 0. The right panel shows a destination card with MAGIC 22/25 circled."
+    },
+    "1": {
+      "visible_text": [
+        "DESTINATION GUIDE",
+        "DESTINATIONS",
+        "There's a DESTINATION GUIDE you can always consult during the game by pressing",
+        "E",
+        "or",
+        "LB",
+        "on the keyboard",
+        "on the controller",
+        "In there, you can check how close you are to reaching each DESTINATION.",
+        "SOUL 10/25",
+        "MAGIC 10/25",
+        "MONEY 10/25",
+        "MIND 10/25",
+        "STAMINA 10/25",
+        "HYPE 10/25"
+      ],
+      "image_description": "A blurred game map is in the background. Several destination cards with question marks are shown with resource requirement tags. A side panel explains the destination guide and shows keyboard E and controller LB."
+    },
+    "2": {
+      "visible_text": [
+        "SHARED RESOURCES",
+        "In this game, all players share the same RESOURCES. In MULTIPLAYER mode, you must co-operate and go in the same direction if you want to reach a DESTINATION together!",
+        "The LOSE and WIN CONDITIONS are reached as a group. If someone triggers a GAME OVER, it's GAME OVER for EVERYONE. If someone does the final push into a DESTINATION, EVERYONE gets there.",
+        "There are INDIVIDUAL aspects of the game; but we'll discuss them in other chapters.",
+        "WEEK 2",
+        "WEEK 1",
+        "You run out of money and have to end the road trip early.",
+        "KICK SERIOUS ASS!",
+        "VICKY",
+        "BRIAN"
+      ],
+      "image_description": "Three example gameplay screenshots are shown. The left screenshot shows a map with a location circled. The middle screenshot shows a game over scene with a stats panel circled. The right screenshot shows another gameplay scene."
+    },
+    "3": {
+      "visible_text": [
+        "MANAGING YOUR RESOURCES",
+        "YOUR RESOURCES ARE MANAGED IN A NUMBER OF WAYS:",
+        "EVENTS",
+        "(this is the main way of managing RESOURCES)",
+        "Bartering with",
+        "TRINKETS",
+        "The CAR",
+        "mini-boosts",
+        "HITCHHIKERS'",
+        "passive effects",
+        "We will explain these methods in other CHAPTERS."
+      ],
+      "image_description": "Four example screenshots are shown in a row. They are labeled as events, bartering with trinkets, the car mini-boosts, and hitchhikers' passive effects. A speech bubble at the bottom right says the methods will be explained in other chapters."
+    },
+    "4": {
+      "visible_text": [
+        "GUESSING RESOURCES",
+        "The EVENTS make up the main content of the GAME. In most of the EVENTS you must guess the RESOURCES associated with OPTIONS.",
+        "How do you properly guess the ASSOCIATED RESOURCES?",
+        "Here's a guide on how to properly guess a RESOURCE LOSS or RESOURCE GAIN out of an EVENT OPTION:",
+        "MONEY GAIN",
+        "Anything that would usually mean making money: selling something, doing a job, robbing someone, etc.",
+        "MONEY LOSS",
+        "Spending or investing money. It can be buying something, renting something, hiring someone, etc. Sometimes this might be inferred by MONEY-related keywords. The OPTION might say nothing about BUYING something, but mention using an EXPENSIVE ITEM. That'd be a clue that OPTION is going to make you LOSE MONEY."
+      ],
+      "image_description": "The page has a black background with faded resource-face icons. On the right is a green panel with money gain and money loss examples."
+    },
+    "5": {
+      "visible_text": [
+        "GUESSING RESOURCES",
+        "MAGIC GAIN",
+        "You might GAIN MAGIC by acquiring a magic item or making a magic pact. You could get the blessing of a deity and receive part of their magic power.",
+        "Some MAGIC-related actions might be tricky: performing a sacrifice to receive magic power implies a GAIN of MAGIC, while a sacrifice that requires magic implies a LOSS of it. Because of this duality, it helps trying to infer the other ASSOCIATED RESOURCE or pay attention to the KNOWN RESOURCE if there is one.",
+        "Keep in mind MAGIC is also the fuel for your car. That means that, if you go to a gas station, you can probably gain some MAGIC.",
+        "MAGIC LOSS",
+        "Performing any magic action might cost you MAGIC. Spells, summonings, curses, illusions... even a bit of sleight of hand could mean MAGIC LOSS.",
+        "Also, since MAGIC is the fuel you use, going hard on your car might mean LOSING some MAGIC."
+      ],
+      "image_description": "The page has a black background with faded resource-face icons. A large pink panel explains magic gain on the left and magic loss on the right."
+    },
+    "6": {
+      "visible_text": [
+        "GUESSING RESOURCES",
+        "STAMINA GAIN",
+        "STAMINA is energy for your body. You can get your STAMINA up by feeding yourself, drinking, or resting. Think about how you'd get your energy up normally!",
+        "Keep in mind drinking lots of alcohol isn't usually a way of getting hydrated, though!",
+        "STAMINA LOSS",
+        "Anything that'd make you physically exhausted, from running a lot to having lots of sex. Alcohol and drugs can get tricky: they might affect either your STAMINA or your MIND. It's all about the wording.",
+        "Always remember that some drugs dehydrate you. If you choose to do them recreationally, at least do them responsibly, and always carry a water bottle with you.",
+        "Also, you can get your STAMINA down if you use your food in ways other than eating. So if you were to throw a pie at someone, that could get your STAMINA down, since you'd be wasting a resource you had with yourself for STAMINA reasons."
+      ],
+      "image_description": "The page has a black background with faded resource-face icons. An orange panel explains stamina gain on the left and stamina loss on the right."
+    },
+    "7": {
+      "visible_text": [
+        "GUESSING RESOURCES",
+        "MIND GAIN",
+        "You can GAIN MIND by learning new things. Think of MIND as intelligence. But also think of MIND as \"peace of mind\". While STAMINA GAIN is resting your body, MIND GAIN is relaxing your brain. Find enlightenment; find bliss.",
+        "Make your mind calmer; make your mind stronger.",
+        "MIND LOSS",
+        "You'll lose MIND if you overtax your brain. Stress, anxiety, panic, confusion... all that might translate into MIND LOSS. Trying to understand stuff beyond mortal comprehension will make you lose MIND. Getting into a very long intellectual debate might not mean gaining MIND out of what you learn, but losing MIND out of using your brain a bit too much.",
+        "HYPE GAIN",
+        "Be fun, be epic. Laugh out loud; practice thrill-inducing sports; do epic shit; go to town... all that might convert into HYPE GAIN.",
+        "HYPE LOSS",
+        "Avoid fun and epic, and you will encounter HYPE LOSS. Choose OPTIONS that feel a bit too mundane; do boring stuff; mingle with dull or annoying people."
+      ],
+      "image_description": "The page has a black background with faded resource-face icons. A purple panel on the left explains mind gain and mind loss. A blue panel on the right explains hype gain and hype loss."
+    },
+    "8": {
+      "visible_text": [
+        "GUESSING RESOURCES",
+        "SOUL GAIN",
+        "SOUL is easy: do good deeds and you'll GAIN SOUL. Help others; be good to society; practice empathy; avoid confrontation; etc.",
+        "SOUL LOSS",
+        "Again, SOUL is easy: be your worst self and you'll LOSE SOUL. Commit crimes; fuck people over; take advantage of others; tell (perjudicial) lies; cheat; and so on.",
+        "TIPS AND NOTES ON GUESSING RESOURCES",
+        "Always check if there's a KNOWN RESOURCE (see EXCHANGE EVENTS). It doesn't matter if an OPTION seems to mean a RESOURCE LOSS or GAIN; if there's a KNOWN RESOURCE, that always takes precedent.",
+        "Lots of times it helps a lot to search for \"KEY WORDS\". Maybe there's an option you're not sure about... but you spot the word \"PREMIUM\" or \"EXPENSIVE\". That could very well be a KEY WORD that tells you the OPTION is somehow ASSOCIATED with MONEY."
+      ],
+      "image_description": "The page has a black background with faded resource-face icons. A yellow panel on the left explains soul gain and soul loss. Two speech bubbles on the right contain tips and notes on guessing resources."
+    },
+    "9": {
+      "visible_text": [
+        "SHARED RESOURCES",
+        "The main goal of the game is to reach one of SIX DESTINATIONS. As mentioned in other chapters, you can check the DESTINATIONS at any time by looking at the DESTINATION GUIDE.",
+        "You get to a DESTINATION by hoarding a specific amount of a RESOURCE (the amount can be consulted at the DESTINATION GUIDE). There's ONE DESTINATION per RESOURCE.",
+        "It's important to note that the requirement is only checked after a REST STOP. If you hit the requirement but then you go below it before leaving a REST STOP, you won't reach a DESTINATION.",
+        "DESTINATIONS",
+        "7 to go!",
+        "HYPE 18/25"
+      ],
+      "image_description": "The page has a green background. Two screenshots on the lower left show the destination guide and a destination requirement panel. A large pink note panel on the right explains that destination requirements are checked after a rest stop."
+    },
+    "10": {
+      "visible_text": [
+        "LAYERS",
+        "Every DESTINATION has THREE LAYERS. Each LAYER adds extra special stuff to the DESTINATIONS.",
+        "1",
+        "The most basic LAYER is the one that, as mentioned before, is achieved by reaching a certain amount of a RESOURCE.",
+        "2",
+        "There's a second LAYER that is achieved by bonding with a specific HITCHHIKER. Each DESTINATION requires its own HITCHHIKER. The DESTINATION GUIDE includes clues on which each HITCHHIKER corresponds to each DESTINATION. Bonding means successfully having a DEEP CONVERSATION with them.",
+        "3",
+        "The third LAYER is achieved by successfully completing a PLOTLINE. Each DESTINATION has its own PLOTLINE. When you have enough of a RESOURCE, you'll be asked if you want to trigger the PLOTLINE for the DESTINATION tied to that RESOURCE."
+      ],
+      "image_description": "A large layered illustration on the left is marked with the numbers 1, 2, and 3. On the right, three numbered boxes explain the three destination layers."
+    },
+    "11": {
+      "visible_text": [
+        "INDIVIDUAL ENDINGS",
+        "LAME LOSER, OK and MVP endings are handled depending on your score. What is your SCORE? It is measured differently depending on the mode you're playing:",
+        "NOTE: The DATE ENDING overrides OK and MVP endings since the player has chosen by themselves that they want to get that ending (when they say they want to be more than friends with the character they bonded with). But the LAME LOSER ending overrides the DATE ENDING because there's no dates for lame losers.",
+        "PRANK MASTER",
+        "ROAD TRIPPER",
+        "FRIEND HUGGER",
+        "MULTIPLAYER",
+        "Players collect a currency called \"PRANK DOLLARZ\". Players are ranked from most PRANK DOLLARZ to least PRANK DOLLARZ. The highest ranking player gets the MVP ending while the lowest ranking player gets the LAME LOSER ending. The other players (if any) get OK endings.",
+        "Players are ranked based on how much of the RESOURCE tied to the DESTINATION reached they gained during the trip. The highest ranking player gets the MVP ending while the lowest ranking player gets the LAME LOSER ending. The other players (if any) get OK endings.",
+        "No individual endings in this mode, a standard OK ending will trigger for the whole team.",
+        "SINGLE PLAYER",
+        "Players earn PRANK DOLLARZ and they get an individual ending based on how many PRANK DOLLARZ they earned. There are thresholds that must be surpassed to get a better ending.",
+        "Good individual endings are earned by not having any low RESOURCE. There are thresholds to decide this: if a RESOURCE is lower than a certain threshold, the player gets a worse individual ending."
+      ],
+      "image_description": "A note panel on the left explains how date ending interacts with other endings. A table on the right compares multiplayer and single player ending rules for prank master, road tripper, and friend hugger."
+    },
+    "12": {
+      "visible_text": [
+        "INDIVIDUAL ENDINGS",
+        "Yeah! You know, doing all the fun things you can do together as a team out of the field!",
+        "That sounds funny. For a moment, I thought it was code for sex.",
+        "Oh, there's also sex sometimes, sure!",
+        "...What?",
+        "The DATE ENDING is always the same: you can achieve this ending by successfully having a DEEP CONVERSATION in the REST STOP with a character and then confirming that you are more than friends with them.",
+        "OZ",
+        "SNACKS"
+      ],
+      "image_description": "A large screenshot on the left shows a conversation scene with four visible dialogue boxes. A text panel on the right explains how the date ending works."
+    },
+    "13": {
+      "visible_text": [
+        "INDIVIDUAL ENDINGS",
+        "LAME LOSER, OK and MVP endings are handled depending on your score. What is your SCORE? It is measured differently depending on the mode you're playing:",
+        "NOTE: The DATE ENDING overrides OK and MVP endings since the player has chosen by themselves that they want to get that ending (when they say they want to be more than friends with the character they bonded with). But the LAME LOSER ending overrides the DATE ENDING because there's no dates for lame losers.",
+        "PRANK MASTER",
+        "ROAD TRIPPER",
+        "FRIEND HUGGER",
+        "MULTIPLAYER",
+        "Players collect a currency called \"PRANK DOLLARZ\". Players are ranked from most PRANK DOLLARZ to least PRANK DOLLARZ. The highest ranking player gets the MVP ending while the lowest ranking player gets the LAME LOSER ending. The other players (if any) get OK endings.",
+        "Players are ranked based on how much of the RESOURCE tied to the DESTINATION reached they gained during the trip. The highest ranking player gets the MVP ending while the lowest ranking player gets the LAME LOSER ending. The other players (if any) get OK endings.",
+        "No individual endings in this mode, a standard OK ending will trigger for the whole team.",
+        "SINGLE PLAYER",
+        "Players earn PRANK DOLLARZ and they get an individual ending based on how many PRANK DOLLARZ they earned. There are thresholds that must be surpassed to get a better ending.",
+        "Good individual endings are earned by not having any low RESOURCE. There are thresholds to decide this: if a RESOURCE is lower than a certain threshold, the player gets a worse individual ending."
+      ],
+      "image_description": "The extracted asset for page 13 shows the same individual endings comparison page as page 11."
+    },
+    "14": {
+      "visible_text": [
+        "EVENTS",
+        "THIS GAME HAS SEVERAL DIFFERENT TYPES OF EVENTS.",
+        "The most common ones by far are known as \"EXCHANGE EVENTS\",",
+        "followed by",
+        "\"QUANTITIES EVENTS\".",
+        "There are",
+        "\"CONVERSATIONS\",",
+        "which are in itself a different type of event that only happens during the \"REST STOP\".",
+        "And finally, there are some more rare types of events we will list and check in the end."
+      ],
+      "image_description": "The page has a green background. Four tall white-bordered panels are arranged in a row. The first panel shows a yellow diamond-shaped sign with one black down arrow and one black up arrow. The second panel shows a blue square sign with three white upward arrows. The third panel shows a small screenshot of a conversation scene. The fourth panel shows three icons grouped together: a yellow warning sign with an exclamation mark, green dice, and a red triangular road-style sign."
+    },
+    "15": {
+      "visible_text": [
+        "EVENTS: EXCHANGE EVENTS",
+        "\"Exchange Events\" are the most common type of events in this game.",
+        "Exchange events are zero-sum events where a RESOURCE is always gained and another RESOURCE is always lost in the same amount.",
+        "FUTURISTIC GAS STATION",
+        "What do you want to do?",
+        "Use the restrooms",
+        "Fill the car's tank",
+        "Go to the store",
+        "If the icon shows a \"?\", there's no KNOWN RESOURCE; you must guess both gain and loss.",
+        "When choosing an ACTION (that will trigger an EXCHANGE EVENT), the icon next to the event icon could show one of the SIX RESOURCES in a POSITIVE or NEGATIVE position. This icon is called \"KNOWN RESOURCE\", and it tells you which specific RESOURCE will be gained or lost for sure.",
+        "For instance, maybe an ACTION consists of buying something at a shop. A \"NEGATIVE MONEY\" icon is shown, meaning that the player will always lose MONEY when buying in the shop. NEGATIVE MONEY is the KNOWN RESOURCE.",
+        "Exchange events provide 2 or 3 options for the player to choose from. Each option is tied to a RESOURCE GAIN, a RESOURCE LOSS, or BOTH. The goal is to choose a beneficial option for the players.",
+        "A KNOWN RESOURCE is incredibly useful when playing strategically. Maybe it says you will always GAIN a RESOURCE you're farming. Or maybe it ensures you will LOSE a RESOURCE you have no problem losing (helping you avoid the risk of losing a RESOURCE that could make you lose the game).",
+        "The goal in \"EXCHANGE EVENTS\" is guessing the ASSOCIATED RESOURCES successfully, and then choosing options to manage your RESOURCES in order not to reach zero on a RESOURCE, while also hoarding enough of a RESOURCE to reach a DESTINATION. Alternatively, just choose whatever the heart wants, focus on having fun, and hope for the best!",
+        "WEEK 1"
+      ],
+      "image_description": "The page has a green background and several boxed sections. On the left is a vertical text block and, below it, a small panel with up and down arrows above two resource-face icons. In the center is a large screenshot panel showing the event titled FUTURISTIC GAS STATION with three option bars. Pink arrows and circles highlight the question-mark icon beside one option and a money icon beside another option. On the right are two rounded rectangular text panels stacked vertically and a speech bubble panel at the bottom right. At the lower center are two additional rounded rectangular text panels placed side by side."
+    },
+    "16": {
+      "visible_text": [
+        "EVENTS: QUANTITIES EVENTS",
+        "QUANTITIES EVENTS are the second most common type of event. They always present three OPTIONS and each of them affect your RESOURCES to varying degrees:",
+        "\"A BIT\"",
+        "\"SOME\"",
+        "\"A FUCKIN' LOT\"",
+        "PET CONTEST",
+        "Which category do you choose?",
+        "Category: talents",
+        "Category: obstacle course",
+        "Category: looks",
+        "Keep in mind that, other than that, it's still similar to an EXCHANGE EVENT in which your goal is to guess which RESOURCES are associated with each option. We've created these EVENTS so that the three options are never associated with the exact same RESOURCES. That way, you won't get locked into always losing the same RESOURCES and potentially losing the game.",
+        "For reference,",
+        "The \"SOME\" OPTION has the same amount of RESOURCE GAIN & LOSS than an EXCHANGE EVENT.",
+        "The \"A BIT\" OPTION is slightly smaller than an EXCHANGE EVENT.",
+        "The \"A FUCKIN' LOT\" OPTION is not only bigger, but it can also be associated with more than 1 RESOURCE GAIN and 1 RESOURCE LOSS. For instance, you could GAIN a lot of 1 RESOURCE while losing some of 2 RESOURCES.",
+        "One thing is for sure: it's still zero-sum.",
+        "WEEK 3",
+        "VICKY"
+      ],
+      "image_description": "The page has a green background. Across the upper middle are three arrow groups labeled A BIT, SOME, and A FUCKIN' LOT, with one, two, and three upward arrows respectively. A large screenshot panel on the left-center shows the event PET CONTEST with three option bars labeled Category: talents, Category: obstacle course, and Category: looks. A pink circle highlights two small icons next to the bottom option. On the right are two rounded rectangular text panels, one large and one smaller beneath it."
+    },
+    "17": {
+      "visible_text": [
+        "EVENTS: QUANTITIES EVENTS",
+        "QUANTITIES EVENTS can be a bit scary since there's never a KNOWN RESOURCE and the \"A FUCKIN' LOT\" OPTION can be incredibly risky; but they're good for strategic reasons.",
+        "WEEK 3",
+        "Scott needs no glow-up! He's beautiful already.",
+        "Everyone loves Scott for being a good boy, but being a bit of a bad boy is sexy too. Give him an earring to make him 5% hotter!",
+        "This forbidden transmutation circle can turn Scott into the hottest creature on Earth: bartender.",
+        "The \"A BIT\" OPTION is great if you have a low RESOURCE and want to affect your RESOURCES only slightly to avoid a GAME OVER.",
+        "The \"SOME\" OPTION is no different from playing an EXCHANGE EVENT with no KNOWN RESOURCE.",
+        "The \"A FUCKIN' LOT\" OPTION is hella chaotic, but it could be very useful if you're sure about the ASSOCIATED RESOURCES and you are positive that the RESOURCE LOSS won't make you lose, while the RESOURCE GAIN can lead you to victory. They can be also great at the start of a match, when you want to affect your RESOURCES big time to have one RESOURCE clearly ahead.",
+        "OZ"
+      ],
+      "image_description": "The page has a green background. On the left is a vertical text block. In the center is a large screenshot panel showing three characters standing in front of a poster-like background, with three option bars along the bottom. Each option bar has an upward-arrow icon group circled in pink. Along the bottom of the page are three separate rounded rectangular text panels, each connected by a pink arrow to one of the option icon groups in the screenshot."
+    },
+    "18": {
+      "visible_text": [
+        "EVENTS: ROAD EVENTS",
+        "ROAD EVENTS are not exactly a different type of EVENT. The term refers to EVENTS that happen between LOCATIONS. Every now and then when heading to a selected LOCATION, a ROAD EVENT can trigger.",
+        "They can be either EXCHANGE EVENTS or QUANTITIES EVENTS (or technically INCREMENTAL EVENTS if you're doing a PLOTLINE).",
+        "WHAT?! WHY HAS THE CAR STOPPED?",
+        "ROAD EVENTS may have KNOWN RESOURCES. You must check the corner of the screen in which the KNOWN RESOURCE is normally displayed when playing an EVENT, and you'll be able to check the KNOWN RESOURCE.",
+        "Don't worry, the KNOWN RESOURCE in a ROAD EVENT will never be one that makes you lose the game, since you have no agency in that event triggering. However, what it can do is make an already low RESOURCE even lower!",
+        "There are NPCs who are common or even exclusive to ROAD EVENTS!",
+        "WEEK 3"
+      ],
+      "image_description": "The page has a green background. On the left is a tall text block. In the center is a large map screenshot panel with a road route, location markers, and a large centered sign reading WHAT?! WHY HAS THE CAR STOPPED? On the right is a rounded rectangular text panel. At the bottom right is a speech bubble panel with a monster character beside it. A warning-sign icon appears at the top right of the page."
+    },
+    "19": {
+      "visible_text": [
+        "EVENTS: CONVERSATIONS & DEEP CONVERSATIONS",
+        "WEEK 3",
+        "LET'S GET REAL!",
+        "Her projects",
+        "CONVERSATIONS and DEEP CONVERSATIONS are a unique subtype of EVENTS tied to the REST STOP and the DATING MECHANICS. We will explore them in the \"CONVERSATIONS & DATING\" chapter.",
+        "OZ",
+        "SNACKS"
+      ],
+      "image_description": "The page has a green background. On the left is a large screenshot panel showing two seated characters in front of a building with a SNACKS sign. Inside the screenshot are a large title box reading LET'S GET REAL! and a yellow choice button reading Her projects, with a small heart icon beside it. On the right is a tall cream-colored text panel."
+    },
+    "20": {
+      "visible_text": [
+        "EVENTS: INCREMENTAL EVENTS",
+        "INCREMENTAL EVENTS are a rare type of EVENT that appear on very few LOCATIONS or as the last EVENT in the PLOTLINES.",
+        "An INCREMENTAL is segmented in three STAGES and each one behaves the same way: you are presented with TWO OPTIONS and each OPTION is tied to one of your RESOURCES. The goal is to guess the ASSOCIATED RESOURCES correctly and then choose whichever OPTION is tied to your HIGHEST RESOURCE of the two. If you do so, you'll continue to the next STAGE, where the exact same thing will happen.",
+        "Repeat this THREE times and you'll succeed at the INCREMENTAL.",
+        "WEEK 4",
+        "HYPE 9",
+        "MAGIC 9",
+        "MIND 9",
+        "MONEY 15",
+        "SOUL 9",
+        "STAMINA 8",
+        "NARRATOR",
+        "If so, there's a wacky adventure that could unlock a layer for that DESTINATION... wanna go for it?",
+        "AMIRA",
+        "INCREMENTAL EVENTS are very special in that they are NOT zero sum. Succeeding or failing an INCREMENTAL EVENT will make you gain or lose RESOURCES from your total. They tend to appear very late in the game and they're a way of closing a run (either towards a GAME OVER or a DESTINATION).",
+        "Also, keep in mind INCREMENTAL EVENTS are quite long, so it might be better to avoid them if you're going for a shorter run."
+      ],
+      "image_description": "The page has a green background. At the left are two stacked text panels: a short introductory paragraph at the top and a larger rounded rectangular panel below it. In the center is a large screenshot panel showing a desert map scene with a week badge, a warning icon, a resource list in the upper right, a large framed illustration of a gray humanoid figure wearing a cap labeled NARRATOR, and a black dialogue box across the bottom. At the right is a tall rounded rectangular text panel. Along the bottom right is a cream-colored speech bubble panel with a blue character head beside it. A triangular road-style sign icon appears in the top-right corner of the page."
+    },
+    "21": {
+      "visible_text": [
+        "EVENTS: CASINO EVENTS",
+        "The CASINO is quite the special LOCATION. It has three EVENTS that are unique. The common aspect of these EVENTS is that the result of them is purely RANDOM and they are NOT zero-sum. Each CASINO EVENT has FAILURE and SUCCESS OUTCOMES that will affect your RESOURCES NEGATIVELY or POSITIVELY.",
+        "SOUL 9",
+        "STAMINA 10",
+        "CASINO",
+        "Chances are... you're gonna have a fun time!",
+        "Other than that, each one is slightly different, in order to provide different experiences. There's an EXCHANGE EVENT, a QUANTITIES EVENT, and an INCREMENTAL EVENT.",
+        "It's worth noting that the INCREMENTAL EVENT includes another twist, in which it lets you \"fold\" whenever you want. This means that at every STAGE of the EVENT you can continue playing for a chance of bigger RESOURCE GAINS or you can fold to leave with your current GAINS. How much do you want to gamble?",
+        "It also makes it the EVENT with the most OUTCOMES! It has 15 OUTCOMES! So good luck going full completionist on that one!"
+      ],
+      "image_description": "The page has a green background. On the left is a tall text block. In the center is a large screenshot panel of a desert map with a casino building marker, a resource list in the upper right, and a large pink panel labeled CASINO above a cream-colored text box. At the bottom of that screenshot is a teal choice strip with three question-mark buttons. On the right is a tall rounded rectangular text panel. Along the bottom right is a cream-colored speech bubble panel with a blue character head beside it. A white dice icon in a green square appears in the top-right corner of the page."
+    },
+    "22": {
+      "visible_text": [
+        "EVENTS: OTHER EVENT TYPES",
+        "WEEK 2",
+        "HYPE 20",
+        "MAGIC 8",
+        "MIND 5",
+        "MONEY 10",
+        "SOUL 7",
+        "STAMINA 10",
+        "Yeah! They've scored so many!",
+        "BRIAN",
+        "There are a few other EVENT types.",
+        "There is an event where NOTHING HAPPENS, for instance. Just a relaxed conversation to enjoy while your RESOURCES stay the same.",
+        "There is an event where NOTHING HAPPENS either, but which is also unique to each PLAYABLE CHARACTER.",
+        "Sometimes we like exploring new things!"
+      ],
+      "image_description": "The page has a green background. On the left is a large screenshot panel showing a week badge, a small circular event icon, a resource list in the upper right, a large framed illustration of three characters sitting together in water, and a black dialogue box across the bottom with a small character portrait at its left edge. On the right is a tall cream-colored text panel. A red circular speech-bubble icon appears in the top-right corner of the page."
+    },
+    "23": {
+      "visible_text": [
+        "REST STOP",
+        "Every 4 TURNS you will get to a REST STOP. The REST STOP provides 5 different SPOTS for the players to choose. With the exception of THE CAR, each choice can only accommodate ONE PLAYER. It's first come first serve, unless you're playing PRANK MASTER mode.",
+        "Let's check what each SPOT does:",
+        "MAP INFO BOARD",
+        "BENCH",
+        "BUS STOP",
+        "NOODLES BARTERING STAND",
+        "CAR",
+        "WEEK 1",
+        "HYPE 15",
+        "MAGIC 14",
+        "MIND 11",
+        "MONEY 11",
+        "SOUL 12",
+        "STAMINA 15",
+        "INFO"
+      ],
+      "image_description": "The page has a dark gray background with a large left text block and a large screenshot panel on the right. Inside the screenshot is a night rest stop scene with five empty square selection spaces placed around the area. Pink arrows point to labeled locations around that screenshot: MAP INFO BOARD at the upper left, BENCH near the upper middle, BUS STOP near the lower left, NOODLES BARTERING STAND near the lower center, and CAR at the right. A green resource list appears at the upper right of the screenshot. The word BRIAN is partially visible along the bottom-right edge of the page."
+    },
+    "24": {
+      "visible_text": [
+        "REST STOP: CAR",
+        "THE CAR is where you can manage your road trip by accessing one of two mini-boosts.",
+        "You can choose to be a CAUTIOUS PLANNER and gain +1 of your LOWEST RESOURCE and lose -1 of your HIGHEST RESOURCE",
+        "WEEK 1",
+        "WHAT'S YOUR ROAD TRIP STYLE?",
+        "cautious",
+        "PLANNER",
+        "Risky",
+        "Traveller",
+        "HYPE 8",
+        "MAGIC 10",
+        "MIND 12",
+        "MONEY 6",
+        "SOUL 12",
+        "STAMINA 12",
+        "Or you can be a RISKY TRAVELLER and gain +1 of your HIGHEST RESOURCE at the cost of -1 of your LOWEST RESOURCE",
+        "Dangerous!",
+        "On PRANK MASTER mode, going to the CAR also guarantees you PRANK DOLLARZ. Whoever goes there first (if several PLAYERS go to the CAR) gets more PRANK DOLLARZ than the rest."
+      ],
+      "image_description": "The page has a bright pink background. At the left is a short introductory paragraph and, below it, a cream-colored text panel describing cautious planner. In the center is a large screenshot panel showing the prompt WHAT'S YOUR ROAD TRIP STYLE? with two large choice cards: a dark card labeled cautious PLANNER on the left and a turquoise card labeled Risky Traveller on the right. A green resource list appears in the upper-right corner of that screenshot. At the right is a cream-colored text panel describing risky traveller. Along the bottom right is a cream-colored speech bubble panel with a blue character head beside it and a green dollar-bill icon near the speech bubble."
+    },
+    "25": {
+      "visible_text": [
+        "REST STOP: NOODLES BARTERING STAND",
+        "Here you can barter with little trinkets and manage your RESOURCES a bit.",
+        "Each TRINKET is tied to a RESOURCE.",
+        "HYPE 12",
+        "MAGIC 12",
+        "MIND 8",
+        "MONEY 10",
+        "SOUL 8",
+        "STAMINA 10",
+        "You'll lose the RESOURCE tied to the TRINKET you give away and gain the RESOURCE tied to the trinket you take.",
+        "HORSE COSTUME (BUTT ONLY)",
+        "BRIAN"
+      ],
+      "image_description": "The page has a bright pink background. At the left is a short introductory text block and a cream-colored panel with a circular resource-face icon above the sentence about each trinket being tied to a resource. In the center is a large screenshot panel showing two inventory-like trays of item cards with two selected item cards circled in pink and a green circular swap-arrow icon between the trays. A green resource list appears at the upper right of the screenshot. At the bottom of the screenshot is a brown nameplate reading HORSE COSTUME (BUTT ONLY). On the right is a cream-colored text panel explaining the resource swap. A green character leans over the bartering stand in the screenshot, and the word BRIAN appears along the lower-right edge."
+    },
+    "26": {
+      "visible_text": [
+        "REST STOP: MAP INFO BOARD",
+        "Here you can check a MAP that shows THREE potential LOCATIONS nearby.",
+        "The LOCATION you choose is guaranteed to appear on your next TURN.",
+        "PLAN YOUR ROUTE!",
+        "MONSTER TRUCK DEATHMATCH",
+        "SPA",
+        "CARNIVAL",
+        "When you're a monster, every truck is a monster truck!",
+        "Ready, set, RELAX!",
+        "HYPE 8",
+        "MAGIC 10",
+        "MIND 12",
+        "MONEY 5",
+        "SOUL 13",
+        "STAMINA 12",
+        "You can use the MAP to reach LOCATIONS with convenient RESOURCES... or just LOCATIONS you think look interesting. It's also very useful for completionists!"
+      ],
+      "image_description": "The page has a bright pink background. At the left is a short introductory paragraph and, below it, a cream-colored panel with a monster-truck location icon above a sentence about the chosen location appearing on the next turn. In the center is a large screenshot panel headed PLAN YOUR ROUTE! showing three large destination cards labeled MONSTER TRUCK DEATHMATCH, SPA, and CARNIVAL. The left card also shows the text When you're a monster, every truck is a monster truck! and the middle card shows Ready, set, RELAX! A green resource list appears in the upper-right corner of the screenshot. Along the bottom right is a cream-colored speech bubble panel with a blue character head beside it."
+    },
+    "27": {
+      "visible_text": [
+        "REST STOP: BENCH",
+        "On the BENCH you can talk with either Polly or Scott.",
+        "The CONVERSATIONS you can hold with them are a chill narrative treat with no choices to be made.",
+        "We will cover CONVERSATIONS in another CHAPTER.",
+        "WEEK 1",
+        "WHO DO YOU WANT TO TALK TO?",
+        "HYPE 10",
+        "MAGIC 10",
+        "MIND 10",
+        "MONEY 5",
+        "SOUL 12",
+        "STAMINA 13",
+        "Scott",
+        "Polly",
+        "It's important to note here that, by having a CONVERSATION with Polly or Scott, you will activate the \"Chaotic Energy\" PASSIVE EFFECT, which will remain active for the following WEEK. While it is active, It makes all the RESOURCE GAINS and LOSSES from LOCATION EVENTS increase by 1.",
+        "CHAOTIC ENERGY",
+        "OK!"
+      ],
+      "image_description": "The page has a bright pink background. At the left is a vertical text block about the bench. In the center is a large screenshot panel showing the prompt WHO DO YOU WANT TO TALK TO? above a framed illustration of two characters sitting at a picnic bench at night. Beneath that framed illustration are two large choice buttons labeled Scott and Polly. A green resource list appears in the upper-right corner of the screenshot. At the right is a yellow text panel with two small character portraits at the top. In the lower-right corner of the page is a black popup panel titled CHAOTIC ENERGY with a pink OK! button."
+    },
+    "28": {
+      "visible_text": [
+        "REST STOP: BUS STOP",
+        "On the BUS STOP you can either check for HITCHHIKERS to pick up or have a CONVERSATION with the one that is already riding with you.",
+        "We will cover CONVERSATIONS in another CHAPTER.",
+        "WEEK 1",
+        "WHO DO YOU WANT TO PICK UP?",
+        "HYPE 8",
+        "MAGIC 10",
+        "MIND 12",
+        "MONEY 5",
+        "SOUL 13",
+        "STAMINA 12",
+        "Miranda",
+        "Joy",
+        "Additionally, each time you interact with a HITCHHIKER, their PASSIVE EFFECT is triggered.",
+        "You can only have one HITCHHIKER at a time. If you pick up a new one, any prior HITCHHIKER will leave into the dark of the night!",
+        "A WHOLE NEW WORLD",
+	"Miranda has brought lots of snacks as she's learning to eat by herself.  She has also brought... lots of questions on how everything works.",
+	"Next week, every turn you'll gain +STAMINA and lose -MIND",
+        "OK!"
+      ],
+      "image_description": "The page has a bright pink background. At the left is a vertical text block about the bus stop. In the center is a large screenshot panel showing the prompt WHO DO YOU WANT TO PICK UP? above a framed illustration of two characters sitting at a bus stop at night. Beneath that framed illustration are two large choice buttons labeled Miranda and Joy. A green resource list appears in the upper-right corner of the screenshot. At the right is a yellow text panel with a character portrait at the top. In the lower-right corner of the page is a black popup panel titled A WHOLE NEW WORLD with a text block and a pink OK! button."
+    },
+    "29": {
+      "visible_text": [
+        "LIST OF HITCHHIKER EFFECTS",
+        "\"FUN\" FACTS",
+        "Next week, every turn you'll gain +MIND and lose -HYPE. So enriching! So \"fun\"!",
+        "SO METAL!",
+        "Next week, every turn you'll gain +HYPE and lose -STAMINA. Exciting! But exhausting...",
+        "SHADY BUSINESS",
+        "Next week, every turn you'll gain +MONEY and lose -SOUL.",
+        "A WHOLE NEW WORLD",
+        "Next week, every turn you'll gain +STAMINA and lose -MIND.",
+        "INVENTORY HOARDER",
+        "Next week, every turn you'll gain +MAGIC and lose -MONEY.",
+        "COVEN ADVENTURES",
+        "Next week, every turn you'll gain +SOUL and lose -MAGIC.",
+        "BARGAIN QUEEN",
+        "Next time you barter with NOODLES you'll gain +1 extra RESOURCE GAIN.",
+        "REAPER'S FREE PASS",
+        "Next week, the first time a RESOURCE hits ZERO, Milo will bring it up to ONE.",
+        "CHILL DUDE",
+        "Next week, all RESOURCE gains and losses are reduced by 1.",
+        "SAFETY MEASURES",
+        "Next week, every turn you'll gain +1 of your LOWEST STAT and lose -1 of your HIGHEST STAT",
+        "TWISTING REALITY",
+        "Two of your RESOURCES swap randomly with each other.",
+        "CRYPTID VIBES",
+        "Next week, every TURN you'll gain a +RANDOM RESOURCE and you'll lose another -RANDOM RESOURCE. Weird!"
+      ],
+      "image_description": "The page has a dark background with the heading LIST OF HITCHHIKER EFFECTS at the top. Below it is a three-row grid of twelve black rectangular cards outlined in yellow. Each card contains a hitchhiker portrait, a bold effect title, and a short effect description. The twelve visible cards are titled \"FUN\" FACTS, SO METAL!, SHADY BUSINESS, A WHOLE NEW WORLD, INVENTORY HOARDER, COVEN ADVENTURES, BARGAIN QUEEN, REAPER'S FREE PASS, CHILL DUDE, SAFETY MEASURES, TWISTING REALITY, and CRYPTID VIBES."
+    },
+    "30": {
+      "visible_text": [
+        "CONVERSATIONS AND DATING MECHANICS",
+        "When interacting with HITCHHIKERS or POLLY & SCOTT at the REST STOP, you can have CONVERSATIONS.",
+        "CONVERSATIONS are a chill, narrative treat with no choices to be made.",
+        "TALK ABOUT...",
+        "The treacherous airpeople",
+        "Her sister, Amanda",
+        "Each HITCHHIKER has a total of 4 CONVERSATION EVENTS and 1 DEEP CONVERSATION EVENT.",
+        "POLLY and SCOTT have a total of 8 CONVERSATION EVENTS and 2 DEEP CONVERSATION EVENTS.",
+        "BRIAN"
+      ],
+      "image_description": "The page has a cream background. At the left is a short text block about conversations and, below it, a rounded cream speech-bubble panel with a narrator cap at the bottom-left edge. At the right is a large screenshot panel showing two characters sitting together on a bench at night in front of a SNACKS sign. Inside the screenshot are a black title box reading TALK ABOUT... and two large choice buttons labeled The treacherous airpeople and Her sister, Amanda."
+    },
+    "31": {
+      "visible_text": [
+        "DEEP CONVERSATIONS",
+        "After several CONVERSATIONS with the same character, you will activate a DEEP CONVERSATION.",
+        "DEEP CONVERSATIONS can end in SUCCESS or FAILURE, and they are the key to scoring a DATE ENDING.",
+        "Once a player succeeds in a DEEP CONVERSATION (and sometimes even if they fail it), no other player can attempt it. Act fast, because whoever gets there first will be the only one with a chance at finding love with that specific character!"
+      ],
+      "image_description": "The page has a cream background. At the left is a short text block about deep conversations and, below it, a rounded cream speech-bubble panel with a blue character head at the lower-left corner. At the right is a large framed illustration of two characters riding together in a car at night under a starry sky."
+    },
+    "32": {
+      "visible_text": [
+        "SUCCEEDING AT DEEP CONVERSATIONS",
+        "During the first half of a DEEP CONVERSATION, your monster friend will hint at their preferences on a topic that's important to them.",
+        "Think of these hints as \"RULES\". When looking at the options, search for ways in which they break the \"RULES\". Two out of the three will break the \"RULES\" somehow.",
+        "The one that breaks no \"RULES\" is the RIGHT OPTION. Choose that one and show your friend you really know and understand them.",
+        "But also make them hot.",
+        "Ugh, so much ideas of what I want in a novel... so little ideas of what the actual novel should be!",
+        "Care to spare a girl some novel ideas, my friend?",
+        "\"There's this sexy, brooding, cynical chainsmoker who survives in a city riddled by crime while reluctantly helping people in need... for money!\"",
+        "\"An intimacy coordinator that's so good at their craft, they're now on a journey to reconnect with their own intimacy in a way that's less intellectual.\"",
+        "\"The gods gift everyone powerful magic rectangles that can connect all monsterkind... but what if they made monsterkind lonelier than ever?\"",
+        "OZ"
+      ],
+      "image_description": "The page has a cream background. At the left is a three-paragraph text block explaining how to read deep-conversation hints. At the right is a large screenshot panel showing three stacked black dialogue boxes above three large answer boxes, with a yellow arrow pointing at the leftmost answer box. Two characters are seated together at night in front of a SNACKS sign inside the screenshot."
+    },
+    "33": {
+      "visible_text": [
+        "PRANK MASTER MODE",
+        "The PRANK MASTER mode adds a currency named \"Prank Dollarz\".",
+        "\"Prank Dollarz\" are counted at the end of the trip to determine which INDIVIDUAL ENDING you get. The more you have, the better ending you'll get.",
+        "PRANK DARES",
+        "You get PRANK DOLLARZ by completing PRANK DARES (a sort of mission). Additionally, you can also earn PRANK DOLLARZ by visiting the CAR SPOT on the REST STOP.",
+        "Each PLAYER can select one of three potential PRANK DARES at the start of the trip and after every REST STOP. By the end of each REST STOP the game checks if any PRANK DARE has been fulfilled. If so, PRANK DOLLARZ are distributed.",
+        "During the trip, meet at least 2 Hitchhikers",
+        "20",
+        "CHOOSE YOUR FIRST DARE",
+        "VICKY"
+      ],
+      "image_description": "The page has a dark gray background. At the left is a text block explaining prank dollarz, and beneath it is a screenshot of an end-of-trip results screen with player rankings and prank-dollar amounts. In the center is a text block titled PRANK DARES. At the upper right is a note-style card that reads During the trip, meet at least 2 Hitchhikers with the number 20 and a dollar-bill icon. At the lower right is a screenshot titled CHOOSE YOUR FIRST DARE showing three dare cards on top of a car. A small purple character illustration appears in the top-right corner of the page."
+    },
+    "34": {
+      "visible_text": [
+        "PRANK MASTER MODE",
+        "HOW TO CHECK PRANK DOLLARZ & PRANK DARES",
+        "You can check the overall PRANK DOLLARZ count by",
+        "or",
+        "hovering the mouse over the player tabs to the right",
+        "Q",
+        "by holding Q in the keyboard",
+        "RT",
+        "RT in the controller",
+        "You can check the current PRANK DARES by clicking on the player tabs, or by pressing",
+        "1",
+        "2",
+        "3",
+        "4",
+        "or",
+        "RB",
+        "on the keyboard",
+        "on the controller",
+        "and then moving through them with the right stick.",
+        "AMIRA'S DARES",
+        "AMIRA"
+      ],
+      "image_description": "The page has a dark gray background. At the left is a heading about checking prank dollarz and dares, followed by large input icons for a mouse cursor, Q, and RT with short explanatory captions under each. In the center are two screenshots connected by pink arrows: the top screenshot shows the map with player tabs and resource values, and the bottom screenshot shows a horizontal list of dare cards under the heading AMIRA'S DARES. At the right is a text block showing the keyboard numbers 1, 2, 3, 4 and the controller button RB, with captions underneath them."
+    },
+    "35": {
+      "visible_text": [
+        "PRANK MASTER MODE",
+        "AUCTION",
+        "In PRANK MASTER mode there is an AUCTION mechanic to choose a REST STOP SPOT.",
+        "You can kick other players out of a selected spot by bidding PRANK DOLLARZ; but they can kick you out later by bidding higher!",
+        "THE CAR is the only option you don't need to bid PRANK DOLLARZ to visit, and it can host as many players as you want!",
+        "WEEK 1",
+        "BID 10",
+        "HYPE 15",
+        "MAGIC 14",
+        "MIND 11",
+        "MONEY 11",
+        "SOUL 12",
+        "STAMINA 15",
+        "BRIAN"
+      ],
+      "image_description": "The page has a dark gray background. At the left is a heading AUCTION with a short text block below it. In the center is a large screenshot of the rest-stop area at night with empty selection squares, the INFO board, bench, bus stop, noodles stand, and car. A player portrait and BID 10 label near the bench are circled in pink, and pink arrows point to the bench area and the car. A green resource list appears in the upper-right corner of the screenshot. At the right is a bordered text panel explaining that the car does not require bidding. A small purple character illustration appears in the top-right corner of the page."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "manifestVersion": 1,
+  "kind": "game",
+  "id": "monster-prom-3-monster-roadtrip",
+  "name": "Monster Prom 3: Monster Roadtrip",
+  "detect": {
+    "steam": {
+      "appId": 1665190,
+      "dirName": "Monster Prom 3 - Monster Roadtrip"
+    },
+    "markers": [
+      "MonsterRoadtrip.exe"
+    ]
+  }
+}

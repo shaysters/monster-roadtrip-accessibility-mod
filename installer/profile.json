@@ -1,0 +1,9 @@
+{
+  "mode": "single-mod",
+  "mod": "monster-roadtrip-accessibility",
+  "title": "Monster Roadtrip Accessibility Installer",
+  "registries": [
+    "github:shaysters/monster-roadtrip-accessibility-mod"
+  ],
+  "lockRegistries": true
+}

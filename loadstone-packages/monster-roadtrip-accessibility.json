@@ -1,0 +1,68 @@
+{
+  "manifestVersion": 1,
+  "id": "monster-roadtrip-accessibility",
+  "name": "Monster Roadtrip Accessibility",
+  "description": "Screen reader and text-to-speech accessibility for Monster Prom 3: Monster Roadtrip. Speaks menus, dialogue, choices, stats, destinations, prank dares, the gallery with image descriptions and campfire seats, and reads the online code when you host.",
+  "authors": [
+    "Shaysters",
+    "Codex",
+    "Claude"
+  ],
+  "game": "monster-prom-3-monster-roadtrip",
+  "distributions": {
+    "steam": "supported"
+  },
+  "dependencies": [
+    {
+      "id": "bepinex-5-win-x86"
+    }
+  ],
+  "channels": {
+    "stable": {
+      "source": "release"
+    }
+  },
+  "install": [
+    {
+      "step": "ensure-dirs",
+      "paths": [
+        "${gameDir}/BepInEx/plugins"
+      ]
+    },
+    {
+      "step": "extract-archive",
+      "routes": [
+        {
+          "from": "**",
+          "to": "${gameDir}/BepInEx/plugins"
+        }
+      ]
+    },
+    {
+      "step": "expect",
+      "checks": [
+        {
+          "fileExists": "${gameDir}/BepInEx/plugins/RoadtripAccessibilityMod.dll",
+          "message": "The download didn't contain the mod (no RoadtripAccessibilityMod.dll)."
+        },
+        {
+          "fileExists": "${gameDir}/BepInEx/plugins/prism.dll",
+          "message": "The download didn't contain the speech library (no prism.dll)."
+        }
+      ]
+    }
+  ],
+  "cleanupLegacy": [
+    "${gameDir}/BepInEx/plugins/Tolk.dll",
+    "${gameDir}/BepInEx/plugins/nvdaControllerClient32.dll",
+    "${gameDir}/BepInEx/plugins/nvdaControllerClient64.dll",
+    "${gameDir}/BepInEx/plugins/RoadtripAccessibilityProbe.dll"
+  ],
+  "packaging": {
+    "artifacts": [
+      {
+        "file": "../dist/MonsterRoadtripAccessibility.zip"
+      }
+    ]
+  }
+}
