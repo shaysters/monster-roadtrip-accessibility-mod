@@ -85,6 +85,12 @@ Game controls this mod supports with speech:
 
 The game's normal navigation, confirm, and back controls are unchanged.
 
+## Troubleshooting
+
+- **No speech at all:** make sure `RoadtripAccessibilityMod.dll`, `prism.dll`, and the `Prism` folder are in `BepInEx\plugins`, and that BepInEx is installed. Running the installer again (Repair) fixes most problems.
+- **Speech uses the Windows voice instead of your screen reader:** start your screen reader before the game, then restart the game.
+- **Still stuck:** the BepInEx log is at `<Game Folder>\BepInEx\LogOutput.log`. It shows whether the mod loaded.
+
 ## Building from source
 
 For developers. You need the .NET SDK (version 6 or later) and the game installed with BepInEx, because the build uses the game's own files and BepInEx's files from the game folder.
@@ -114,3 +120,4 @@ To publish a release: update `changes-latest.md`, build the zip, create a draft 
 - Claude
 - Image descriptions and manual text were made by AI; the manual was edited by Misty Rayburn.
 - The installer is built with [Loadstone](https://github.com/bradjrenshaw/loadstone) by Bradley Renshaw.
+- Speech uses [Prism](https://github.com/ethindp/prism) by Ethin Probst, licensed under the Mozilla Public License 2.0.
