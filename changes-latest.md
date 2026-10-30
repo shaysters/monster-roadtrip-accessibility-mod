@@ -1,12 +1,8 @@
-# Monster Roadtrip Accessibility 1.0.0
+# Monster Roadtrip Accessibility 1.0.1
 
-Run **MonsterRoadtripAccessibilityInstaller.exe** to install, update, repair, or uninstall. Close the game first. It installs BepInEx if it is missing, then the mod, and removes files left by older versions. You can still install by hand from the zip; see the README.
+Run **MonsterRoadtripAccessibilityInstaller.exe** (or the one you already have) to install or update. Close the game first. You can still install by hand from the zip; see the README.
 
-## Changes
+## Fixed
 
-- New standalone installer.
-- Speech now goes through Prism. If NVDA, JAWS, or another supported screen reader is running when the game starts, the mod speaks through it, and to your braille display if the screen reader supports it. Otherwise it uses built-in Windows speech. Tolk and the NVDA client files are no longer used.
-- When you host an online match, the online code is read digit by digit a moment after the lobby opens. Press C in the lobby to hear it again.
-- Campfire spots say who is sitting there and how many seats are free.
-- The mod now also talks when no screen reader is running, using built-in Windows speech.
-- The README's BepInEx instructions now point to the 32-bit (x86) package, which the game needs.
+- Campfire seat names are read on controller focus too, not only when focus lands on the spot's button.
+- The repeat key (G, or L3 on controller) replays the online code, so controller players can hear it again.

@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.1 - 2026-10-30
 
 ### Fixed
 - Campfire seat names are read on controller focus too, not only when focus lands on the spot's button.

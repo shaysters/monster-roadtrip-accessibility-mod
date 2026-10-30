@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace RoadtripAccessibilityProbe
 {
-    [BepInPlugin("com.shaysters.roadtrip.accessibility", "Roadtrip Accessibility Mod", "1.0.0")]
+    [BepInPlugin("com.shaysters.roadtrip.accessibility", "Roadtrip Accessibility Mod", "1.0.1")]
     public sealed class Plugin : BaseUnityPlugin
     {
         [DllImport("user32.dll")]
