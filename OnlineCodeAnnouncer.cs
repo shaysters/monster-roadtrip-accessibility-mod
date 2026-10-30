@@ -82,7 +82,9 @@ namespace RoadtripAccessibilityProbe
 
             string code = _pendingCode;
             _pendingCode = null;
-            Plugin.Speech.Speak(Plugin.Localization.Get("MOD_TTS_ONLINE_CODE_ANNOUNCE", "code", SpellOut(code)), interrupt: false, sourceTag: "online:code");
+            // "dialog:" makes it repeatable with the repeat key (G / L3), so controller
+            // players, who have no C key, can hear the code again.
+            Plugin.Speech.Speak(Plugin.Localization.Get("MOD_TTS_ONLINE_CODE_ANNOUNCE", "code", SpellOut(code)), interrupt: false, sourceTag: "dialog:online-code");
         }
 
         internal static void SpeakCurrentCode()

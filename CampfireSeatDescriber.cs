@@ -18,12 +18,8 @@ namespace RoadtripAccessibilityProbe
                 return string.Empty;
             }
 
-            Component button = Traverse.Create(widget).Field("button").GetValue() as Component;
-            if (button != null && button.gameObject != gameObject)
-            {
-                return string.Empty;
-            }
-
+            // Any focused object inside the spot counts: controller navigation doesn't
+            // always land on the widget's button itself.
             bool isLoveLog = Traverse.Create(widget).Field("isLoveLog").GetValue<bool>();
             int locationId = Traverse.Create(widget).Field("locationId").GetValue<int>();
             string title = isLoveLog
