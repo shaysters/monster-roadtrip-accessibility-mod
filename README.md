@@ -1,123 +1,110 @@
-# Monster Roadtrip Accessibility Mod
+# Monster Roadtrip Accessibility
 
-Text-to-speech accessibility support for [Monster Prom 3: Monster Roadtrip](https://store.steampowered.com/app/1665190/Monster_Prom_3_Monster_Roadtrip/).
+Monster Roadtrip Accessibility is a mod that makes Monster Prom 3: Monster Roadtrip, the multiplayer dating sim by Beautiful Glitch, playable with a screen reader. It reads menus, dialogue, choices, tutorials, stats and resource changes, destination progress, prank dares, campfire seats, credits and the in-game manual, and describes the pictures in the gallery. It also reads the online code when you host a match.
 
-This mod for the game was coded by Codex, Claude, and Shaysters.
+It works with NVDA, JAWS and other Windows screen readers, and falls back to Windows' built-in voices if no screen reader is running. If your screen reader has a braille display connected, everything the mod reads goes to braille too.
 
-## Install with the installer (recommended)
+- Join the Discord to chat, get help or report problems: <https://discord.gg/KNDXhztGGK>
+- Support shaysters on Ko-fi: <https://ko-fi.com/shaysters>
 
-The installer sets up everything for you, including BepInEx. It needs 64-bit Windows 10 or later and supports the Steam version of the game.
+Version 1.0.2. See [CHANGELOG.md](CHANGELOG.md) for what has changed.
 
-1. Download `MonsterRoadtripAccessibilityInstaller.exe` from the [latest release](https://github.com/shaysters/monster-roadtrip-accessibility-mod/releases/latest).
-2. Close the game, then run the installer.
-   Windows SmartScreen may warn that the app is unrecognized, because the installer is not code-signed. Choose "More info", then "Run anyway".
-3. The installer finds the game through Steam. If it doesn't, use Browse to pick the folder that contains `MonsterRoadtrip.exe`.
-4. Press Install. The installer adds BepInEx if it is missing, then the mod, and removes files left by older versions of the mod.
-5. Start your screen reader, then start the game.
+## Requirements
 
-Run the installer again at any time to update, repair, or uninstall the mod.
+- Monster Prom 3: Monster Roadtrip for Windows, from Steam or GOG:
+  - Steam: <https://store.steampowered.com/app/1665190/Monster_Prom_3_Monster_Roadtrip/>
+  - GOG: <https://www.gog.com/en/game/monster_prom_3_monster_roadtrip>
+- A screen reader such as NVDA or JAWS (optional; without one, the mod uses Windows' built-in speech).
 
-## Manual install
+The mod has been tested with the Steam version. The GOG and DRM-free versions should work too, but they haven't been tested yet.
 
-1. Install the game from Steam.
-   Default Steam location:
-   `C:\Program Files (x86)\Steam\steamapps\common\Monster Prom 3 - Monster Roadtrip`
+## Installing
 
-2. Install BepInEx 5 for Windows x86. The game is 32-bit, so the x64 package will not work.
-   Download `BepInEx_win_x86_5.4.23.5.zip` from:
-   <https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.5>
-
-   Direct asset link:
-   <https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x86_5.4.23.5.zip>
-
-3. Extract BepInEx into the game folder, next to `MonsterRoadtrip.exe`.
-   After extraction, the game folder should contain `winhttp.dll` and a `BepInEx` folder.
-
-4. Run the game once, then close it. This lets BepInEx create its folders.
-
-5. Copy the contents of `MonsterRoadtripAccessibility.zip` from the latest release into:
-   `C:\Program Files (x86)\Steam\steamapps\common\Monster Prom 3 - Monster Roadtrip\BepInEx\plugins`
-
-   The plugins folder should include:
-   - `RoadtripAccessibilityMod.dll`
-   - `prism.dll`
-   - `Prism\` (Prism license files)
-   - `GalleryDescriptions.txt`
-   - `ManualPages.en.json`
-   - `Localization\English.txt`
-
+1. Close the game if it's running.
+2. Download **MonsterRoadtripAccessibilityInstaller.exe** from the [latest release](https://github.com/shaysters/monster-roadtrip-accessibility-mod/releases/latest). It needs 64-bit Windows 10 or later.
+3. Run it. Windows SmartScreen may warn that the app is unrecognized, because the installer is not code-signed. Choose **More info**, then **Run anyway**.
+4. The installer finds your Steam copy of the game by itself. For a GOG or DRM-free copy, or if it can't find the game, use the Browse button next to the game folder and choose the folder that contains `MonsterRoadtrip.exe`.
+5. Choose **Install**. The installer adds BepInEx if it's missing, then the mod, and removes files left by older versions of the mod.
 6. Start your screen reader, then start the game.
 
-## Speech
+### Updating and uninstalling
 
-The mod uses Prism for speech. If NVDA, JAWS, or another supported screen reader is running when the game starts, speech goes through it, and to your braille display if the screen reader supports it. If no screen reader is running, the mod uses built-in Windows speech. If you start your screen reader after the game, restart the game to switch over.
+Keep the installer. Run it again to update to the newest version, repair the mod, or uninstall it. Close the game first. The installer says on its first page when an update is available, and the mod tells you too, once the title menu has been read.
 
-Prism is licensed under the Mozilla Public License 2.0. Its license files are in the `Prism` folder.
+### Installing by hand
 
-## Features
+1. Download BepInEx 5 for 32-bit Windows, [BepInEx_win_x86_5.4.23.5.zip](https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x86_5.4.23.5.zip). The game is 32-bit, so the x64 package won't work.
+2. Extract it into the game folder, next to `MonsterRoadtrip.exe`. The game folder should then contain `winhttp.dll` and a `BepInEx` folder. On a default Steam install the game folder is:
 
-- Adds TTS support for menus, dialogue, choices, tutorials, stats, resource changes, destination progress, prank dares, credits, and many gallery screens.
-- The gallery is accessible with image descriptions. These descriptions were made by AI and may not be completely accurate.
-- `GalleryDescriptions.txt` is included so others can translate or edit the image descriptions.
-- The in-game manual text was made by AI and edited by Misty Rayburn.
-- `Localization\English.txt` can be edited by players to adjust many mod-added spoken strings.
+   ```
+   C:\Program Files (x86)\Steam\steamapps\common\Monster Prom 3 - Monster Roadtrip
+   ```
+
+   For GOG or DRM-free copies, use the folder you installed the game to.
+3. Start the game once so BepInEx can create its folders, then close it.
+4. Download **MonsterRoadtripAccessibility.zip** from the [latest release](https://github.com/shaysters/monster-roadtrip-accessibility-mod/releases/latest) and extract everything in it into `BepInEx\plugins` in the game folder. That folder should then contain `RoadtripAccessibilityMod.dll`, `prism.dll`, the `Prism` folder (Prism's license files), `GalleryDescriptions.txt`, `ManualPages.en.json` and `Localization\English.txt`.
+5. Start your screen reader, then start the game.
+
+To uninstall a manual install, delete the files and folders listed in step 4 from `BepInEx\plugins`. To remove BepInEx too, delete the `BepInEx` folder, `winhttp.dll`, `doorstop_config.ini`, `.doorstop_version` and `changelog.txt` from the game folder.
+
+## Keys
+
+The game's own navigation, confirm and back controls work as normal.
+
+| Keyboard | Controller | What it does |
+|---|---|---|
+| g | L3 | Repeat the last thing the mod said. |
+| t | R3 | Read the current stats. |
+| c | None | In an online lobby, read the online code again. |
+| e | Left bumper | Open or check the destination guide (a game key the mod reads). |
+| Hold q | Right trigger | Check your Prank Dollarz (a game key the mod reads). |
+| 1, 2, 3, 4 | Right bumper | Check your current Prank Dares (a game key the mod reads). On a controller, move through them with the right stick. |
+
+Notes:
+
 - Campfire spots say who is sitting there and how many seats are free.
 - When you host an online match, the online code is read digit by digit.
-- Meta-Shop unlocks some gallery images.
-- Sticker Studio was not made accessible.
+- Some gallery pictures are unlocked in the Meta-Shop.
 
-## Controls
+## Changing what the mod says
 
-Mod-added keys:
+These files in `BepInEx\plugins` are plain text, so you can edit or translate them:
 
-- `G`: repeat the last spoken line.
-- `T`: read current stats.
-- `C`: in an online lobby, read the online code again.
-- `L3`: repeat the last spoken line on controller.
-- `R3`: read current stats on controller.
+- `GalleryDescriptions.txt`: the gallery picture descriptions.
+- `Localization\English.txt`: many of the phrases the mod adds.
 
-Game controls this mod supports with speech:
+## Known limitations
 
-- `E` or `LB`: open/check the destination guide.
-- Hold `Q` or `RT`: check Prank Dollarz.
-- `1`, `2`, `3`, `4`, or `RB`: check current Prank Dares.
-- Right stick: move through Prank Dares after opening them with controller.
-
-The game's normal navigation, confirm, and back controls are unchanged.
+- The Sticker Studio isn't accessible.
+- The gallery descriptions were written by AI and may not be completely accurate.
 
 ## Troubleshooting
 
-- **No speech at all:** make sure `RoadtripAccessibilityMod.dll`, `prism.dll`, and the `Prism` folder are in `BepInEx\plugins`, and that BepInEx is installed. Running the installer again (Repair) fixes most problems.
-- **Speech uses the Windows voice instead of your screen reader:** start your screen reader before the game, then restart the game.
-- **Still stuck:** the BepInEx log is at `<Game Folder>\BepInEx\LogOutput.log`. It shows whether the mod loaded.
-
-## Building from source
-
-For developers. You need the .NET SDK (version 6 or later) and the game installed with BepInEx, because the build uses the game's own files and BepInEx's files from the game folder.
-
-Build:
+BepInEx keeps a log in the game folder:
 
 ```
-dotnet build RoadtripAccessibilityProbe.csproj -c Release
+BepInEx\LogOutput.log
 ```
 
-If the game is not in the default Steam folder, add `-p:GameDir="<game folder>"`. The built mod and its data files are in `bin\Release\net48`.
+It shows whether the mod loaded. If something goes wrong, include the log when you report it.
 
-Build the release zip into `dist\MonsterRoadtripAccessibility.zip`:
+- **No speech at all:** make sure `RoadtripAccessibilityMod.dll`, `prism.dll` and the `Prism` folder are in `BepInEx\plugins`, and that BepInEx is installed. Running the installer again and choosing Repair fixes most problems.
+- **Windows speech talks instead of your screen reader:** start your screen reader before the game. If you start it after, restart the game.
 
-```
-powershell -ExecutionPolicy Bypass -File scripts\package-release.ps1
-```
-
-Add `-GameDir "<game folder>"` if the game is not in the default Steam folder.
-
-To publish a release: update `changes-latest.md`, build the zip, create a draft GitHub release with the zip attached (`gh release create vX.Y.Z --draft --notes-file changes-latest.md dist\MonsterRoadtripAccessibility.zip`), then run the **Release** workflow from the Actions tab with the same tag. It builds the installer, writes `loadstone-release.json`, and publishes the release. The installer's package files are in `loadstone-packages/`, and its settings are in `installer/profile.json`.
+To report a problem or suggest something, open an issue on the [GitHub page](https://github.com/shaysters/monster-roadtrip-accessibility-mod/issues).
 
 ## Credits
 
-- Shaysters
-- Codex
-- Claude
-- Image descriptions and manual text were made by AI; the manual was edited by Misty Rayburn.
-- The installer is built with [Loadstone](https://github.com/bradjrenshaw/loadstone) by Bradley Renshaw.
-- Speech uses [Prism](https://github.com/ethindp/prism) by Ethin Probst, licensed under the Mozilla Public License 2.0.
+This mod was developed by [Shaysters](https://github.com/shaysters), with code written by Codex (OpenAI) and Claude (Anthropic).
+
+The gallery descriptions and the in-game manual text were made by AI. The manual was edited by Misty Rayburn.
+
+The installer is built with [Loadstone](https://github.com/bradjrenshaw/loadstone) by [Bradley Renshaw](https://github.com/bradjrenshaw).
+
+Speech is provided by [Prism](https://github.com/ethindp/prism) by Ethin Probst, under the MPL-2.0 license. Its license files are in the `Prism` folder.
+
+Monster Prom 3: Monster Roadtrip is made by Beautiful Glitch. This mod isn't affiliated with or endorsed by Beautiful Glitch.
+
+## For developers
+
+Build and release instructions are in [DEVELOPING.md](DEVELOPING.md).

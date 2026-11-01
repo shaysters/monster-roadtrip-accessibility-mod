@@ -8,9 +8,11 @@ using UnityEngine;
 
 namespace RoadtripAccessibilityProbe
 {
-    [BepInPlugin("com.shaysters.roadtrip.accessibility", "Roadtrip Accessibility Mod", "1.0.1")]
+    [BepInPlugin("com.shaysters.roadtrip.accessibility", "Roadtrip Accessibility Mod", Version)]
     public sealed class Plugin : BaseUnityPlugin
     {
+        internal const string Version = "1.0.2";
+
         [DllImport("user32.dll")]
         private static extern IntPtr GetForegroundWindow();
 
@@ -42,6 +44,7 @@ namespace RoadtripAccessibilityProbe
 
             _focusWatcher = gameObject.AddComponent<FocusWatcher>();
             _gameplayTtsController = gameObject.AddComponent<GameplayTtsController>();
+            gameObject.AddComponent<UpdateCheck>();
         }
 
         private void OnDestroy()

@@ -87,6 +87,7 @@ MOD_TTS_NOTHING_TO_REPEAT=Nothing to repeat.
 MOD_TTS_ONLINE_CODE=Online code: [code]
 MOD_TTS_ONLINE_CODE_ANNOUNCE=Online code: [code]. Press C to hear it again.
 MOD_TTS_ONLINE_CODE_NONE=No online code right now.
+MOD_TTS_UPDATE_AVAILABLE=Monster Roadtrip Accessibility version [version] is available. Run the installer to update.
 MOD_TTS_STAT_CHECK_FAIL=Stat check failed. [stat].
 MOD_TTS_STAT_CHECK_PASS=Stat check passed. [stat].
 MOD_TTS_STAT_DECREASE=[stat] decreased.

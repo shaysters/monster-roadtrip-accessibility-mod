@@ -11,6 +11,12 @@ namespace RoadtripAccessibilityProbe
         private string _lastRepeatableText = string.Empty;
         private float _lastSpeakTime = -1000f;
 
+        // Time.unscaledTime of the last thing spoken, so the update notice can wait for a pause.
+        internal float LastSpeakTime => _lastSpeakTime;
+
+        // How many lines have been spoken since the game started.
+        internal int SpeakCount { get; private set; }
+
         private SpeechService(ISpeechBackend backend)
         {
             _backend = backend;
@@ -52,6 +58,7 @@ namespace RoadtripAccessibilityProbe
             _lastText = cleaned;
             _lastSource = sourceTag ?? string.Empty;
             _lastSpeakTime = now;
+            SpeakCount++;
             if (IsRepeatableSource(_lastSource))
             {
                 _lastRepeatableText = cleaned;

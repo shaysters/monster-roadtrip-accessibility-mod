@@ -10,7 +10,9 @@
   ],
   "game": "monster-prom-3-monster-roadtrip",
   "distributions": {
-    "steam": "supported"
+    "steam": "supported",
+    "gog": "untested",
+    "standalone": "untested"
   },
   "dependencies": [
     {

@@ -34,6 +34,10 @@
       <HintPath>$(GameDir)\MonsterRoadtrip_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>$(GameDir)\MonsterRoadtrip_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>$(GameDir)\MonsterRoadtrip_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
       <Private>false</Private>
